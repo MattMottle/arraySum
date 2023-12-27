@@ -14,7 +14,7 @@ function calibrate(arr) {
 
         const first = numbers[0];
         const last = numbers[numbers.length - 1];
-        sumArr.push(Number(first + last));
+        sumArr.push(first + last);
     }
     for(let x = 0; x < sumArr.length; x++) {
         let z = parseInt(sumArr[x]);
